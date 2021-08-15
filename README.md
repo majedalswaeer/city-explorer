@@ -68,3 +68,28 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Project Name
+
+**Author**: Majed Al-swaeer
+
+
+## Overview
+City explorer is an application used to give the client longitude and latitude in addition a map of the selected 
+
+## Getting Started
+Simplyy enter the city and the app will render the things mentioned above
+
+## Architecture
+React-Bootstrap, JXS , CSS and Javascript
+
+Name of feature: creating API keys
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 5pm
+
+Finish time: 7pm
+
+Actual time needed to complete: 2hours

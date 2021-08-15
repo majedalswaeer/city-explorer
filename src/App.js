@@ -62,7 +62,7 @@ class App extends React.Component {
           </ListGroup> </p>)}
           {this.state.showList  && ( <div className='img'> <Image
               src={`https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_LOCATIONIQ_KEY}&center=${this.state.citydata.lat},${this.state.citydata.lon}&zoom=18`} 
-              rounded
+              roundedCircle
             /></div>)}
         </>
       </div>
