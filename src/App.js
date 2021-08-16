@@ -28,14 +28,24 @@ class App extends React.Component {
       dataforcoun: e.target.cityy.value
     })
     let url = `https://eu1.locationiq.com/v1/search.php?key=${process.env.REACT_APP_LOCATIONIQ_KEY}&q=${this.state.dataforcoun}&format=json`;
+    try {
 
-    let sendData = await axios.get(url);
+      let sendData = await axios.get(url);
+    
 
     await this.setState({
       citydata: sendData.data[0],
       showList: true,
+      errormsg:false,
 
     })
+  }catch(error){
+    await this.setState({
+      citydata: '',
+      showList: false,
+      errormsg:true
+    })
+  }
   }
 
 
@@ -63,7 +73,8 @@ class App extends React.Component {
           {this.state.showList  && ( <div className='img'> <Image
               src={`https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_LOCATIONIQ_KEY}&center=${this.state.citydata.lat},${this.state.citydata.lon}&zoom=18`} 
               roundedCircle
-            /></div>)}
+            /></div>)} 
+            {this.state.errormsg && (<h2 style={{color:'red'}} >Something went wrong, check your code ! </h2>)}
         </>
       </div>
     )
