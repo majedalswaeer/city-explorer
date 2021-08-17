@@ -76,12 +76,12 @@ class App extends React.Component {
             <ListGroup.Item style={{ padding: '2ch' }} variant="info">Lon:{this.state.citydata.lon}</ListGroup.Item>
           </ListGroup> </p>)}
 
-          {this.state.showList && this.state.wData.data.map((element,i) => {
+          {this.state.showList && this.state.wData.data.map((element, idx) => {
             return (<ListGroup style={{ paddingLeft: '50ch', display: 'flex', marginInline: '10ch', color: 'red', justifyContent: 'space-evenly' }} >
-              <ListGroup.Item  style={{ padding: '2ch' }} variant="info">Date : {element.datetime}</ListGroup.Item>
-              <ListGroup.Item  style={{ padding: '2ch' }} variant="info">description : {element.weather.description}</ListGroup.Item>
-              <ListGroup.Item  style={{ padding: '2ch' }} variant="info">Max Temprature : {element.app_max_temp}</ListGroup.Item>
-              <ListGroup.Item  style={{ padding: '2ch' }} variant="info">Min Temprature : {element.app_min_temp}</ListGroup.Item>
+              <ListGroup.Item controlId={idx} style={{ padding: '2ch' }} variant="info">Date : {element.datetime}</ListGroup.Item>
+              <ListGroup.Item controlId={idx + 1} style={{ padding: '2ch' }} variant="info">description : {element.weather.description}</ListGroup.Item>
+              <ListGroup.Item controlId={idx + 2} style={{ padding: '2ch' }} variant="info">Max Temprature : {element.app_max_temp}</ListGroup.Item>
+              <ListGroup.Item controlId={idx + 3} style={{ padding: '2ch' }} variant="info">Min Temprature : {element.app_min_temp}</ListGroup.Item>
             </ListGroup>
             )
           })}
