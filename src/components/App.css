@@ -1,0 +1,39 @@
+
+
+h1,h2{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+form{
+  color: black;
+  font-size: larger;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 5ch ;
+  display: flex;
+  padding-left: 42ch;
+}
+
+
+#formtext{
+  width: 40ch;
+}
+
+button{
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: row;
+
+}
+
+img{
+  width: 25%;
+  padding-left: 65ch;
+}
+
