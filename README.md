@@ -70,7 +70,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-# Project Name
+# Project Name: lab07
 
 **Author**: Majed Al-swaeer
 
@@ -93,3 +93,35 @@ Start time: 5pm
 Finish time: 7pm
 
 Actual time needed to complete: 2hours
+
+
+
+# Project Name: lab08
+
+**Author**: Majed Al-swaeer
+**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
+
+## Overview
+City explorer is an application used to give the client weather and movies create on the user's city  using an api also an third party api  
+
+## Getting Started
+Simplyy enter the city and the app will render the things mentioned above by the link on netlify 
+
+## Architecture
+eact-Bootstrap, JXS , CSS and Javascript
+
+Name of feature: creating third party API
+
+## Change Log
+
+18-08-2021 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource.
+
+Name of feature: third party API
+
+Estimate of time needed to complete: 6 hours
+
+Start time: 5pm
+
+Finish time: 12am
+
+Actual time needed to complete: 7 hours
