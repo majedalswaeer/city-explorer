@@ -25,12 +25,6 @@ button{
   font-family: 'Courier New', Courier, monospace;
 }
 
-p {
-  font-family: 'Courier New', Courier, monospace;
-  display: flex;
-  flex-direction: row;
-
-}
 
 img{
   width: 25%;

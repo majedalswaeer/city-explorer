@@ -88,7 +88,7 @@ class App extends React.Component {
           </div>
 
 
-          {this.state.showList && (<p> <ListGroup style={{ paddingLeft: '30ch', display: 'flex', marginInline: '10ch', color: 'red', justifyContent: 'space-evenly' }} >
+          {this.state.showList && (<p> <ListGroup style={{ fontSize:'2ch',fontWeight:'bolder' ,paddingLeft: '45ch', display: 'flex', marginInline: '10ch', color: 'red', fontFamily: 'monospace', flexDirection: 'row'}} >
             <ListGroup.Item style={{ padding: '2ch' }} variant="info">City Name:{this.state.citydata.display_name}</ListGroup.Item>
             <ListGroup.Item style={{ padding: '2ch' }} variant="info">Lat:{this.state.citydata.lat}</ListGroup.Item>
             <ListGroup.Item style={{ padding: '2ch' }} variant="info">Lon:{this.state.citydata.lon}</ListGroup.Item>
